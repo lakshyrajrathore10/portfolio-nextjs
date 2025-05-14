@@ -19,7 +19,7 @@ const Projects = () => {
         {/* Project Card 1 */}
         <div className="project-card relative bg-white/10 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border border-white/20 hover:scale-105 transition-all duration-300 ease-in-out">
           <img
-            src="https://via.placeholder.com/600x400"
+            src="./wallpaper.png"
             alt="Project 1"
             className="w-full h-52 object-cover"
           />
@@ -30,7 +30,7 @@ const Projects = () => {
             </p>
             <div className="flex gap-4 mt-4">
               <a
-                href="#"
+                href="https://github.com/lakshyrajrathore10/portfolio-nextjs"
                 className="px-6 py-2 text-white bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors duration-300"
               >
                 GitHub
@@ -48,7 +48,7 @@ const Projects = () => {
         {/* Project Card 2 */}
         <div className="project-card relative bg-white/10 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border border-white/20 hover:scale-105 transition-all duration-300 ease-in-out">
           <img
-            src="https://via.placeholder.com/600x400"
+            src="./womenSafety.png"
             alt="Project 2"
             className="w-full h-52 object-cover"
           />
@@ -59,7 +59,7 @@ const Projects = () => {
             </p>
             <div className="flex gap-4 mt-4">
               <a
-                href="#"
+                href="https://github.com/maity-moumita/Alert-Angel"
                 className="px-6 py-2 text-white bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors duration-300"
               >
                 GitHub
@@ -77,7 +77,7 @@ const Projects = () => {
         {/* Project Card 3 */}
         <div className="project-card relative bg-white/10 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border border-white/20 hover:scale-105 transition-all duration-300 ease-in-out">
           <img
-            src="https://via.placeholder.com/600x400"
+            src="./tripAdvisor.png"
             alt="Project 3"
             className="w-full h-52 object-cover"
           />
