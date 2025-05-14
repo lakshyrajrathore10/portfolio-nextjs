@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useEffect } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
@@ -40,14 +40,19 @@ const Main = () => {
     });
   }, []);
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div id="main" className="container mx-auto px-4 py-8 md:py-16">
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-20">
         {/* Left Section */}
         <div className="w-full m-10 md:w-1/2 order-1 md:order-none">
-          <h1
-            className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-100 leading-tight mb-6 hero-text"
-          >
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-100 leading-tight mb-6 hero-text">
             Hello, <br />
             I'm{" "}
             <span className="text-emerald-400">Lakshyraj Singh Rathore</span>
@@ -65,25 +70,25 @@ const Main = () => {
           {/* Social Links */}
           <div className="flex gap-5 mb-8 social-icons">
             <a
-              href="#"
+              href="https://github.com/lakshyrajrathore10"
               className="text-2xl text-gray-300 hover:text-white transition-colors"
             >
               <FaGithub />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/lakshyraj-singh-rathore-272361265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
               className="text-2xl text-gray-300 hover:text-blue-500 transition-colors"
             >
               <FaLinkedin />
             </a>
             <a
-              href="#"
+              href="https://leetcode.com/u/lakshyraj10/"
               className="text-2xl text-gray-300 hover:text-orange-400 transition-colors"
             >
               <SiLeetcode />
             </a>
             <a
-              href="#"
+              href="https://www.geeksforgeeks.org/user/lakshyrajsingh10/"
               className="text-2xl text-gray-300 hover:text-green-500 transition-colors"
             >
               <SiGeeksforgeeks />
@@ -92,12 +97,15 @@ const Main = () => {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 buttons">
-            <button className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-transparent border border-emerald-400 text-white hover:bg-emerald-400 hover:bg-opacity-10 transition-colors">
+            <button
+              onClick={() => scrollToSection("contact")} // Scroll to "contact" section
+              className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-transparent border border-emerald-400 text-white hover:bg-emerald-400 hover:bg-opacity-10 transition-colors"
+            >
               <MdContactMail /> Contact me
             </button>
             {/* Get Resume button without download functionality */}
             <a
-              href="#"
+              href="./Lakshyraj_Singh_Rathore_Resume.pdf"
               className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:opacity-90 transition-opacity"
               style={{ visibility: "visible", opacity: 1 }} // Ensuring visibility
             >

@@ -26,7 +26,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-gray-400 text-sm">
-          © {new Date().getFullYear()} Lakshyraj. Built with ❤️ using React & Tailwind CSS.
+          © {new Date().getFullYear()} Lakshyraj. Built with ❤️
         </p>
       </div>
     </footer>

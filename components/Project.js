@@ -104,6 +104,10 @@ const Projects = () => {
         </div>
 
       </div>
+      <p className="text-center text-xl font-semibold text-neutral-300 mt-7 italic tracking-wide">
+  & Many more...
+</p>
+
     </div>
   );
 };

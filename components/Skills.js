@@ -9,14 +9,14 @@ const Skills = () => {
     { name: "JavaScript", icon: <FaJs className="text-yellow-500 text-5xl drop-shadow-lg" /> },
     { name: "React.js", icon: <FaReact className="text-blue-400 text-5xl drop-shadow-lg" /> },
     { name: "Next.js", icon: <SiNextdotjs className="text-gray-900 text-5xl drop-shadow-lg" /> },
-    { name: "Node.js", icon: <FaNodeJs className="text-green-600 text-5xl drop-shadow-lg" /> },
-    { name: "Express", icon: <SiExpress className="text-gray-800 text-5xl drop-shadow-lg" /> },
-    { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-5xl drop-shadow-lg" /> },
+    // { name: "Node.js", icon: <FaNodeJs className="text-green-600 text-5xl drop-shadow-lg" /> },
+    // { name: "Express", icon: <SiExpress className="text-gray-800 text-5xl drop-shadow-lg" /> },
+    // { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-5xl drop-shadow-lg" /> },
     { name: "Tailwind", icon: <SiTailwindcss className="text-blue-400 text-5xl drop-shadow-lg" /> },
     { name: "Git", icon: <FaGitAlt className="text-red-500 text-5xl drop-shadow-lg" /> },
     { name: "Github", icon: <FaGithub className="text-black text-5xl drop-shadow-lg" /> },
     { name: "Bootstrap", icon: <SiBootstrap className="text-purple-600 text-5xl drop-shadow-lg" /> },
-    { name: "GSAP", icon: <p className="text-green-400 text-3xl font-bold drop-shadow-lg">GSAP</p> },
+    // { name: "GSAP", icon: <p className="text-green-400 text-3xl font-bold drop-shadow-lg">GSAP</p> },
   ];
 
   return (

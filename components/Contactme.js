@@ -1,11 +1,11 @@
-'use client'
+"use client"
 import React from 'react';
 import { MdEmail, MdSubject, MdMessage } from 'react-icons/md';
 import { FaUser } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#1e1a78] to-[#0f172a] text-white py-20 px-6 flex justify-center items-center">
+    <div id="contact" className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#1e1a78] to-[#0f172a] text-white py-20 px-6 flex justify-center items-center">
       <div className="w-full max-w-3xl bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-10 relative border border-white/10">
 
         {/* Glowing Line Divider */}
