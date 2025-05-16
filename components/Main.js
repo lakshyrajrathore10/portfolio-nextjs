@@ -105,7 +105,7 @@ const Main = () => {
             </button>
             {/* Get Resume button without download functionality */}
             <a
-              href="./Lakshyraj_Singh_Rathore_Resume.pdf"
+              href="./Lakshyraj_Singh_Resume.pdf"
               className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:opacity-90 transition-opacity"
               style={{ visibility: "visible", opacity: 1 }} // Ensuring visibility
             >
