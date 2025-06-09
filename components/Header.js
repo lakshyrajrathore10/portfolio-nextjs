@@ -1,5 +1,9 @@
 'use client';
 import React, { useState } from 'react';
+import { FiSun } from 'react-icons/fi';
+import { FiMoon } from 'react-icons/fi';
+
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +31,7 @@ const Header = () => {
           <a onClick={() => scrollToSection('about-me')} className="cursor-pointer hover:text-gray-600">About</a>
           <a onClick={() => scrollToSection('contact')} className="cursor-pointer hover:text-gray-600">Contact</a>
         </div>
-        <div className="text-xl">🌙</div>
+        <div className="text-xl"> <FiSun size={24} /></div>
       </header>
 
       {/* Mobile Navbar */}
