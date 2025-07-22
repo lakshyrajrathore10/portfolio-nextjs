@@ -22,7 +22,7 @@ const Skills = () => {
         <h1 className="text-3xl sm:text-4xl font-bold mb-2">Tools & Technologies I Work With</h1>
         <p className="text-gray-400 text-sm sm:text-base">These are the core technologies I use in most of my projects</p>
       </div>
-
+    
       {/* Scroll Area */}
       <div className="w-full py-8 mt-8 md:mt-14 overflow-hidden relative max-w-[95%] mx-auto">
         {/* Gradient overlay for fade effect on edges */}

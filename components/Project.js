@@ -21,17 +21,16 @@ const Projects = () => {
         {/* Project Card 1 */}
         <div className="project-card bg-white/10 backdrop-blur-md rounded-xl overflow-hidden shadow-lg border border-white/20 flex flex-col h-full">
           <img
-            src="./wallpaper.png"
+            src="./food-order-app.png"
             alt="Project 1"
             className="w-full h-48 sm:h-52 object-cover"
           />
           <div className="p-4 sm:p-6 flex flex-col flex-grow">
             <p className="text-base sm:text-lg mb-4">
-              React-based personal site featuring my work, resume, and social
-              links with smooth navigation.
+              A full-stack food ordering web app built with the MERN stack featuring user authentication, menu browsing, cart, and order placement. Includes an admin panel for managing orders, users, and menu items.
             </p>
             <a
-              href="https://github.com/lakshyrajrathore10/portfolio-nextjs"
+              href="https://github.com/lakshyrajrathore10/Food-ordering-Web"
               className="px-4 sm:px-6 py-2 text-black bg-gray-200 hover:bg-gray-300 rounded-lg transition-colors text-center mt-auto"
             >
               GitHub
@@ -80,6 +79,11 @@ const Projects = () => {
             </a>
           </div>
         </div>
+        
+        {/* project cart 4 */}
+
+        
+
       </div>
 
       <p className="text-center text-lg sm:text-xl font-semibold text-neutral-300 mt-8 sm:mt-10 italic tracking-wide">
