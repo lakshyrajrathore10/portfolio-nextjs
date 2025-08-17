@@ -42,7 +42,7 @@ const AboutMe = () => {
       {/* About Text with ScrollTrigger Animation */}
       <div className="max-w-3xl w-full text-center mb-20">
         <p className="about-text text-lg md:text-xl text-gray-200 leading-relaxed">
-        I am a third-year Computer Science student with a strong passion for frontend development. I enjoy turning complex UI designs into responsive, user-friendly web interfaces. Currently, I am learning backend development and sharpening my skills in Data Structures and Algorithms (DSA) to become a well-rounded full-stack developer.
+        I am a Final-year Computer Science student with a strong passion for frontend development. I enjoy turning complex UI designs into responsive, user-friendly web interfaces. Currently, I am learning backend development and sharpening my skills in Data Structures and Algorithms (DSA) to become a well-rounded full-stack developer.
         </p>
       </div>
 
