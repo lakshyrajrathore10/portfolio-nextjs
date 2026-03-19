@@ -178,19 +178,49 @@ const Main = () => {
             </motion.div>
 
             {/* Name */}
-            <motion.div variants={itemVariants} style={{ marginBottom: "8px" }}>
+            <motion.div variants={itemVariants} style={{ marginBottom: "12px" }}>
               <span style={{
                 fontFamily: "var(--font-heading)",
-                fontSize: "clamp(1rem, 2vw, 1.2rem)",
-                fontWeight: 600,
-                letterSpacing: "0.12em",
-                textTransform: "uppercase",
-                background: "linear-gradient(90deg, var(--accent-indigo), var(--accent-cyan))",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
+                fontSize: "clamp(1.2rem, 3.5vw, 1.6rem)",
+                fontWeight: 800,
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "12px",
+                color: "var(--text-primary)"
               }}>
-                Lakshyraj Singh Rathore
+                <span style={{ 
+                  color: "var(--accent-indigo)", 
+                  fontSize: "0.65em", 
+                  fontWeight: 500,
+                  letterSpacing: "0.1em",
+                  textTransform: "uppercase"
+                }}>
+                  Hi, I'm
+                </span>
+                <span className="gradient-text" style={{ 
+                  position: "relative",
+                  filter: "drop-shadow(0 0 20px rgba(99,102,241,0.3))",
+                  padding: "0 4px"
+                }}>
+                  Lakshyraj Singh Rathore
+                  <motion.span
+                    initial={{ scaleX: 0 }}
+                    animate={{ scaleX: 1 }}
+                    transition={{ delay: 1, duration: 1, ease: "circOut" }}
+                    style={{
+                      position: "absolute",
+                      bottom: "15%",
+                      left: "-2%",
+                      right: "-2%",
+                      height: "35%",
+                      background: "rgba(99, 102, 241, 0.2)",
+                      zIndex: -1,
+                      borderRadius: "4px",
+                      transformOrigin: "left",
+                      filter: "blur(2px)"
+                    }}
+                  />
+                </span>
               </span>
             </motion.div>
 
